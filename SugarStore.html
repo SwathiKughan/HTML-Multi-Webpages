@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+    body{background-image: url("https://t3.ftcdn.net/jpg/05/22/91/36/360_F_522913618_IK1ApFVlU3qz1KfbctaQ9v2tjrvQXU5s.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;}
+    table,th,td,tr{text-align: center; column-width: 15cm;}
+        
+    td, th :not(:last-child){border-right: 1px solid black; border-collapse: collapse;
+      padding: 4px;}
+
+
+      .dropbtn {
+  background-color:rgb(250, 238, 245);
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: palevioletred;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+
+    </style>
+    <link rel="icon" type="image.jpeg" href="https://sugarspunrun.com/wp-content/uploads/2022/04/Best-Chocolate-Cupcakes-1-of-1.jpg">
+    </head>
+    <body>
+        <header style="background-color: rgb(250, 238, 245);">
+        <img src="https://media.istockphoto.com/id/1354222855/vector/vector-creative-logo-sugar-store-bright-alphabet-letters-and-numbers-set.jpg?s=612x612&w=0&k=20&c=xFgNpwsTCH9yC-YhzXDFqnFpfuKYsFbdxff5A1LkfbI=" alt="candybites" height="70" width="230" style="float: left;">      
+        <br>&ensp;&emsp;
+        <a href="About.html"><button style="background-color:rgb(250, 238, 245);color: black;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;"><b>About Us</b></button></a>
+&emsp;&emsp;
+        <div class="dropdown">
+            <button onclick="toggleRecipesDropdown()" class="dropbtn"><b>Recipes</b></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="Cookies.html">Cookies</a>
+              <a href="Brownies.html">Brownies</a>
+              <a href="Bread&Bun.html">Bread & Bun</a>
+              <a href="Donuts.html">Donuts</a>
+              <a href="Cheesecake.html">Cheesecakes</a>
+              <a href="Tiramisu.html">Tiramisu</a>
+            </div>
+          </div>
+          
+          <script>
+            function toggleRecipesDropdown() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+          
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+          </script>
+          &emsp;&emsp;
+          <div class="dropdown">
+            <button onclick="toggleLearnDropdown()" class="dropbtn"><b>Learn</b></button>
+            <div id="myDropdown1" class="dropdown-content">
+              <a href="https://www.youtube.com/channel/UCGRVq7kI_LCntI05A6-XAtA#:~:text=Dessert%20Corner%20%2D%20Promo%20Video%20%7C%20Dessert%20Recipes%20%2D%20Cake%2C%20Cookies%2C%20Sweets%20&%20More&text=%C2%B7%20Videos%20%C2%B7%20Kids%20Special%20Recipes%20by,Box%20%C2%B7%20Popular%20videos%20%C2%B7%20All%20Dessert">Videos</a>
+              <a href="https://www.sprinklebakes.com/">Blogs</a>
+            </div>
+          </div>
+          
+          <script>
+            function toggleLearnDropdown() {
+              document.getElementById("myDropdown1").classList.toggle("show");
+            }
+          
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+          </script>
+          
+
+    
+
+
+
+        <a href="Signup.html""><button style="font-size: 15px;background-color: pink; color: black; border-radius: 10px; float: right;">Sign Up</button></a>
+        <a href="login.html"><button style="font-size: 15px;background-color: pink; color: black; border-radius: 10px;float: right;">Login</button></a>
+   </header>
+        <marquee>
+            <h3><span style="background-color: palevioletred;">!!Dessert is like a feel-good song, and the best ones make you dance!!Stressed spelled backward is desserts.Coincidence? I think not!!Dessert is like a cloud that melts in your mouth!!Dessert is like a hug that lasts longer!!Donut worry, be happy!!</span></h3>
+            </marquee>
+            <br>
+            <br><br>
+            <img src="https://w0.peakpx.com/wallpaper/651/638/HD-wallpaper-yummy-deserts-cool-food-yummy-entertainment-fun-desserts.jpg" height="700" width="1600">
+
+            
+
+            
+<br>
+    <hr>
+    <br>
+    <h2>Contact Details</h2>        
+    <table>
+        <tr>
+        <th style="font-size:x-large;;">Chennai</th>
+        <th style="font-size: x-large;">Banglore</th>
+        <th style="font-size: x-large;">Cochin</th>
+        
+    </tr>
+    <tr>
+        <td style="font-size: large;letter-spacing: 0.1cm;">No.6,2nd floor,<br>Anna Nagar,Chennai.<br>123-456-789</td>
+        <td style="font-size: large;letter-spacing: 0.1cm;">16/29,4th Cross Street,<br>Whitefield,Banglore.<br>345-678-910</td>
+        <td style="font-size: large;letter-spacing: 0.1cm;">No.4,1st cross St,Gandhi Road,<br>Cochin,Kerala.<br>234-567-890</td>
+    </tr>
+    </table>
+    <br><br><h2 style="text-align: center;background-color:teal;color:pink; ">"Savor the magic, surrender to the sweetness"</h2>
+    <br><br>
+    <h5 style="text-align: center;">@CopyrightsCandyBitesSweetShop160601</h5>
+    </body>
+</html>
